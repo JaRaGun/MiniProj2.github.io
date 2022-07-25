@@ -5,7 +5,12 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('../public/backgrounds.jpg')",
+        'gaze-logo': "url('../public/COVID-LOGO.gif')",
+      }
+    },
   },
   plugins: [],
 }
